@@ -1,10 +1,10 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "Reddit Mod Auto Select",
-  "version": "1.0",
+  "version": "2.0",
   "description": "Automatically changes the dropdown to 'Reply as the subreddit' on mod.reddit.com",
   "permissions": [
-    "activeTab"
+    "*://mod.reddit.com/*"
   ],
   "content_scripts": [
     {
